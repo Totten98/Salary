@@ -1,0 +1,18 @@
+main: it.totten98.salary.Stipendio
+name: Salary
+version: '0.9'
+description: Stipendio
+authors: [SimoSbara, Axel, Totten98]
+website: totten98.it
+prefix: Salary
+depend: [Vault]
+permissions:
+    salary.default:
+        description: Stipendio Base
+        default: true
+    salary.membro:
+        description: Stipendio Membro+
+        default: op
+    salary.vip:
+        description: Stipendio VIP+
+        default: op
