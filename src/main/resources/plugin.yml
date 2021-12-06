@@ -1,11 +1,12 @@
+name: ${project.name}
 main: it.totten98.salary.Stipendio
-name: Salary
-version: '0.9'
-description: Stipendio
+version: ${project.version}
+description: ${project.description}
 authors: [SimoSbara, Axel, Totten98]
 website: totten98.it
-prefix: Salary
+prefix: ${project.name}
 depend: [Vault]
+api-version: 1.18
 permissions:
     salary.default:
         description: Stipendio Base
